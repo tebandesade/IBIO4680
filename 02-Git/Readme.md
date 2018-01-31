@@ -57,6 +57,29 @@ Go into your GitHub account and create a new repository (green button at the rig
 2. Run `git push`. What happens?
 3. Check your repository on GitHub
 
+### Git ignore
+`.gitignore` is a very special file. Probably one of the most important. It is a file thet tells Github (in this case) what kind of files not to upload. For instance, those files who end in **.mat, .png, .whatever**, or even entire folders. Look at the .gitignore file in this repo to explore some of the files I have excluded. 
+
+Here is one example .gitignore file:
+	```txt
+
+	#ignore all .a files
+	*.a
+
+	#but do track lib.a, even though you're ignoring .a files above
+	!lib.a
+
+	#ignore all files in the build/ directory
+	build/
+
+	#ignore doc/notes.txt, but not doc/server/arch.txt
+	doc/*.txt
+
+	#ignore all .pdf files in the doc/ directory and any of its subdirectories
+	doc/**/*.pdf
+
+	```
+
 ### Pulling changes
 
 1. Make some changes to your project using the GitHub interface (for example edit a Readme.md).
