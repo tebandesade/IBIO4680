@@ -2,7 +2,7 @@
 
 ## Preparation
 
-- Read about version control and Git (sections 1.1 - 1.4)  
+- Read about version control and Git (sections 1.1 - 1.4) 
   http://git-scm.com/book/en/v2/Getting-Started-About-Version-Control 
 
 ## Basics
@@ -10,7 +10,7 @@
 ### Create a local repository
 
 1. Using the terminal create an empty directory 
-2. Enter it, and run  `git init`  
+2. Enter it, and run  `git init` 
    What happened?
 3. Run `ls -al`, what do you notice?
 
@@ -126,7 +126,7 @@ GitHUB slides for class:
 - GitLab
 
 ### How to use git in this lab
-https://goo.gl/t65Ja5
+https://github.com/affromero/IBIO4680/blob/master/02-Git/workflow_lab.pdf
 
 ## Graphical Clients
 
