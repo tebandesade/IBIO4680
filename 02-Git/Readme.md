@@ -61,7 +61,6 @@ Go into your GitHub account and create a new repository (green button at the rig
 `.gitignore` is a very special file. Probably one of the most important. It is a file thet tells Github (in this case) what kind of files not to upload. For instance, those files who end in **.mat, .png, .whatever**, or even entire folders. Look at the .gitignore file in this repo to explore some of the files I have excluded. 
 
 Here is one example .gitignore file:
-	`
 
 	#ignore all .a files
 	*.a
@@ -78,7 +77,7 @@ Here is one example .gitignore file:
 	#ignore all .pdf files in the doc/ directory and any of its subdirectories
 	doc/**/*.pdf
 
-	`
+
 
 ### Pulling changes
 
